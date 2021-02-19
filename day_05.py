@@ -1,0 +1,36 @@
+### KROTKI - TUPLES
+# licz0 = int(input("Podaj liczbę: "))
+# licz1 = int(input("Podaj liczbę: "))
+# licz2 = int(input("Podaj liczbę: "))
+# licz3 = int(input("Podaj liczbę: "))
+# licz4 = int(input("Podaj liczbę: "))
+# listLiczby = []
+# listLiczby.append(licz0)
+# listLiczby.append(licz1)
+# listLiczby.append(licz2)
+# listLiczby.append(licz3)
+# listLiczby.append(licz4)
+# print(f"Zawartość listy: ", listLiczby)
+# suma = sum(listLiczby[:])
+# zmienna = len(listLiczby)
+# srednia = suma / zmienna
+# print(f"Srednia: ", srednia)
+# print(f"Suma: ", suma)
+###ZBIORY - SET
+# licz0 = int(input("Podaj liczbę: "))
+# licz1 = int(input("Podaj liczbę: "))
+# licz2 = int(input("Podaj liczbę: "))
+# licz3 = int(input("Podaj liczbę: "))
+# licz4 = int(input("Podaj liczbę: "))
+# zbiorLiczby = set ()
+# zbiorLiczby.add(licz0)
+# zbiorLiczby.add(licz1)
+# zbiorLiczby.add(licz2)
+# zbiorLiczby.add(licz3)
+# zbiorLiczby.add(licz4)
+# print(zbiorLiczby)
+# print (len(zbiorLiczby))
+###SLOWNIKI
+# slownik = {"jeden": 1, "dwa": 2, "trzy": 3, "cztery": 4, "pięć": 5,}
+# cyfra = input("Podaj słownie liczbę od 1 - 5: ")
+# print(slownik[cyfra])
