@@ -1,5 +1,13 @@
 import pandas as pd
 
+df = pd.read_csv('log.csv')
+
+df_pop = df_pop.rename(columns={"Nowa Kolumna" : "Inna Nazwa"})
+df_pop
+
+#print(df[10:3])
+
+
 #dataframe
 # data = pd.read_csv ("cenlutyutf8.csv", sep=";")
 #
@@ -11,7 +19,7 @@ import pandas as pd
 
 
 # import pandas as pd
-#
+#df = pd.read_csv('http://analityk.edu.pl/wp-content/uploads/2020/01/Countries.csv')
 # data = pd.read_csv (r'D:\projectBootcampALX\cenlutyutf8.csv')
 # df = pd.DataFrame(data, columns= ['answered','callee_last_name'])
 # print (df)
