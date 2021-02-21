@@ -2,10 +2,8 @@ import pandas as pd
 
 df = pd.read_csv('log.csv')
 
-df_pop = df_pop.rename(columns={"Nowa Kolumna" : "Inna Nazwa"})
-df_pop
 
-#print(df[10:3])
+print(df[:3])
 
 
 #dataframe
